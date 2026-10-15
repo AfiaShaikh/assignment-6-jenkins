@@ -1,0 +1,16 @@
+name: assignment6
+services:
+  jenkins:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: assignment6-jenkins:local
+    ports:
+      - "127.0.0.1:8081:8080"
+    environment:
+      JAVA_OPTS: "-Xms256m -Xmx1024m"
+    volumes:
+      - jenkins_home:/var/jenkins_home
+    restart: unless-stopped
+volumes:
+  jenkins_home:
