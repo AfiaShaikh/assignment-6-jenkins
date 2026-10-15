@@ -30,6 +30,8 @@ The required Freestyle job is **GitHub-Jenkins-Demo**. It retrieves branch `main
 
 Your application source and Jenkins setup are independent of Assignment 7. Internet is required for initial downloads and GitHub access. This package does not contain a captured successful Jenkins run; record your own execution evidence.
 
+SCM polling demonstration — second commit.
+
 References:
 - https://www.jenkins.io/doc/book/installing/docker/
 - https://www.jenkins.io/doc/book/pipeline/syntax/
